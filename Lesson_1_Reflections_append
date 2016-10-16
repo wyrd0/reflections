@@ -1,0 +1,37 @@
+
+
+
+How might using version control make you more 
+confident to make changes that could break 
+something?
+
+Foreknowledge that you can undo your errors 
+may lead to more confidence.
+
+
+
+Now that you have your workspace set up, what
+do you want to use Git for?
+
+So far, I know how to use Git to start Sublime, 
+access and compare versions of file commits, 
+navigate Windows file system and move files.  I 
+want to learn what else can be done in Git.
+
+
+
+_______________
+Describe the process for using Git to clone a 
+repository and locate a bug.
+
+Clone the repository:
+(In Git Bash:  git clone ...URL.git...)
+Locate the repository in Windows Explorer. (Unhide
+files, look in C:/user/9wyrd/AppData/Local/Programs/).
+Open index.html in Firefox to view file.  In gitbash, 
+change to the repository directory (using the path above)
+and run git log.  q out of git log and git checkout commits 
+by ID, refreshing the browser window on the index.htm 
+until the version with the bug is located.  git diff
+the version before and after the intro of the bug to 
+pinpoint the code that intro'd the bug.
