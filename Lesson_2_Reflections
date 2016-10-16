@@ -24,8 +24,10 @@ Use git status to check the contents of the staging area.
 
 
 
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches are helpful when you want to make a change that will result in a new, coexisting version of the file, such as an alternate version of a game, or when you want to experiment with a potential feature that may or may not be incorporated later.  Branches help by creating a copy whose future becomes independent of the master branch. 
+
+
 
 How do the diagrams help you visualize the branch structure?
 
