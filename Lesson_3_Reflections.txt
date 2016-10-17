@@ -9,3 +9,11 @@ If two users are simultaneously making changes to the same section of code, havi
 
 
 
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+A fork is a copy of a repository on github that carries metadata to refer to the original.  A clone is a copy of a repository.  Branches are a series of commits, within a repository, that have a history /ancestry that is independent of that of other branches.
+Branches can be used in conjunction with either forks or clones.  They are not analogous concepts.  Forks should be used when you want to clone the repo belonging to another user who has not given you permission to make changes to the original.  Clones can be used to copy an entire repository when you intend to commit changes back to the origin.
+
+
+
+ 
