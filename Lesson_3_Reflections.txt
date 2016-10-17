@@ -16,4 +16,5 @@ Branches can be used in conjunction with either forks or clones.  They are not a
 
 
 
- 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+Git uses this to report the state of your local repo, compared to remote. 
