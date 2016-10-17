@@ -1,3 +1,11 @@
 When would you want to use a remote repository rather than keeping all your work local?
-A remote repository is helpful when you use multiple clients to push changes or when 
-multiple people are working on the same project/repo.
+A remote repository is helpful when you use multiple clients to push changes or when multiple people are working on the same project/repo.
+
+
+
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+If two users are simultaneously making changes to the same section of code, having updates pushed to each of them from the remote repo in real time could be overwhelming for the users.  In the case of using local repositories on more than one client computer, github would have to constantly push data to many systems, worldwide, unnecessarily tying up resources.  The operation would quickly become prohibitively resource hoggy.
+
+
+
