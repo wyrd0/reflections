@@ -18,3 +18,11 @@ Branches can be used in conjunction with either forks or clones.  They are not a
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 Git uses this to report the state of your local repo, compared to remote. 
+
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Files would have to be manually sent and merged (through visual comparison, etc.) and communication would have to be initiated by the user.  For the most part, it would be more difficult because repetitive tasks could not be automated.  There are cases (such as fixing a simple typo) where going through the entire pull request procedure seems rediculously labor intensive.  (e.g., Why couldn't Sarah just fix the typo and pulled?  I'm sure she could still have made a note of it if she wanted to point it out.)
+
+
+
