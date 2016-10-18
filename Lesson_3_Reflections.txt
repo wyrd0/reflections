@@ -26,3 +26,7 @@ Files would have to be manually sent and merged (through visual comparison, etc.
 
 
 
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Although it could be easier to simply commit your changes to master, then request a pull, this could result in a mess on the master branch, which cannot be subsequently deleted.  It is best to create and alternate branch for changes when collaborating, so that collaborators can view and accept or request changes before merging the final product into master. 
